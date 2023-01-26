@@ -7,19 +7,19 @@ Data in the real world is almost never clean. Often before doing anything with i
 Below you are given a data set that contains details of a bank's customers. The task here is to use the preprocessing techniques that we've shown in the class to clean and transform this data set.
 
 1. Uni-variate analysis:
-    1 Type of each feature
-    2 Mean, median, quantiles for continues
-    3 Histogram or frequency tables for categorical
+    1. Type of each feature
+    2. Mean, median, quantiles for continues
+    3. Histogram or frequency tables for categorical
 
 2. Find and remove duplicates.
 
 3. Outliers:
-    1 Identify the outliers
-    2 Choose the correct treatment
+    1. Identify the outliers
+    2. Choose the correct treatment
 
 4. Missing values:
-    1 Identify missing values
-    2 Impute missing values 
+    1. Identify missing values
+    2. Impute missing values 
 
 5. Transform categorical variables 
 
@@ -34,7 +34,7 @@ You are tasked with doing some exploratory data analysis, which is the first ste
 
 the total plots you would need to complete this.
 
-1. First you should look at the differences in churn rates, split by the different categorical variables. Produce the appropriate visualisation to compare the average churn rate, split by:
+1. First you should look at the differences in churn rates, split by the different categorical variables. Produce the appropriate visualisation to compare the average    churn rate, split by:
 
     i. Geography
 
@@ -42,12 +42,7 @@ the total plots you would need to complete this.
 
     iii. Tenure
 
-2. We would also like to know how the data is distributed. Some models require features to be
-
-normally distributed, and highly skewed variables can affect summary statistics if left
-
-unchecked. Produce the appropriate visualisation for the distribution of:
-
+2. We would also like to know how the data is distributed. Some models require features to be normally distributed, and highly skewed variables can affect summary        statistics if left unchecked. Produce the appropriate visualisation for the distribution of:
     i. Geography
 
     ii. Age

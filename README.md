@@ -7,29 +7,28 @@ Data in the real world is almost never clean. Often before doing anything with i
 Below you are given a data set that contains details of a bank's customers. The task here is to use the preprocessing techniques that we've shown in the class to clean and transform this data set.
 
 1. Uni-variate analysis:
-  1. Type of each feature
-  2. Mean, median, quantiles for continues
-  3. Histogram or frequency tables for categorical
+  1.1 Type of each feature
+  1.2 Mean, median, quantiles for continues
+  1.3 Histogram or frequency tables for categorical
 
 2. Find and remove duplicates.
 
 3. Outliers:
-  1. Identify the outliers
-  2. Choose the correct treatment
+  3.1 Identify the outliers
+  3.2 Choose the correct treatment
 
 4. Missing values:
-  1. Identify missing values
-  2. Impute missing values 
+  4.1 Identify missing values
+  4.2 Impute missing values 
 
 5. Transform categorical variables 
 
 6. Scale the data set
 
 
-Note: Before attempting Data Visualisation section, you should have Data Cleaning project as give in one of the files.
-
-
 ## 2.Data Visualisation
+
+Note: Before attempting Data Visualisation section, you should have Data Cleaning project as give in one of the files.
 
 You are tasked with doing some exploratory data analysis, which is the first step in building a model to predict churn. Since this process is usually very large, we will look at a subset of
 
@@ -65,27 +64,17 @@ unchecked. Produce the appropriate visualisation for the distribution of:
 
   4.3. Add a line to the figure which shows the average correlation (hint: This will require adding an extra trace).
   
-![](RackMultipart20230126-1-wn30sp_html_b4979e1fdd9d9891.png)
 
-## Deep learning Project
+## 3.Deep learning Project
 
-# Vision
+**Image classification with the CIFAR10 dataset(included in Keras)**
 
-sionconsistsof.
+- Data set of 50,000 images for training and 10,000 for testing
+- RGB(fullcolour) images of 32x32 pixels
+- Images tagged in 10 different classes
 
-![](RackMultipart20230126-1-wn30sp_html_a46f8c5dbc1ff549.png)
+**Objective of the project:**
 
-# Image classification with theCIFAR10dataset(includedinKeras)
-
-- Datasetof50,000imagesfortrainingand10,000fortesting
-- RGB(fullcolour)imagesof32x32pixels
-- Imagestaggedin10differentclasses
-
-# ![](RackMultipart20230126-1-wn30sp_html_6d01036109a29eb.jpg)Objectiveoftheproject:
-
-  - Testing5(ormore!)differentcombinationsofelements(Networkarchitecture,dataaugmentation…)
-  - Collectingtheresultsandanalysing
-
-them
-
-  - Givingaglobalcomparisonamongthe(atleast)5combinations
+  - Testing 5(ormore!) different combinations of elements (Network architecture,data augmentation…)
+  - Collecting the results and analysing them
+  - Giving a global comparison among the(atleast) 5 combinations

@@ -1,6 +1,6 @@
 # Data-Science-Projects
 
-**Data Cleaning**
+1.**Data Cleaning**
 
 Data in the real world is almost never clean. Often before doing anything with it, we have to clean it, which can involve many different steps. In this task, the aim is to explore a messy dataset, and correct any issues you may find. This is a required step before any visualization, which will take place in Data Visualisation part.
 

@@ -7,19 +7,19 @@ Data in the real world is almost never clean. Often before doing anything with i
 Below you are given a data set that contains details of a bank's customers. The task here is to use the preprocessing techniques that we've shown in the class to clean and transform this data set.
 
 1. Uni-variate analysis:
-  1.1 Type of each feature
-  1.2 Mean, median, quantiles for continues
-  1.3 Histogram or frequency tables for categorical
+    1 Type of each feature
+    2 Mean, median, quantiles for continues
+    3 Histogram or frequency tables for categorical
 
 2. Find and remove duplicates.
 
 3. Outliers:
-  3.1 Identify the outliers
-  3.2 Choose the correct treatment
+    1 Identify the outliers
+    2 Choose the correct treatment
 
 4. Missing values:
-  4.1 Identify missing values
-  4.2 Impute missing values 
+    1 Identify missing values
+    2 Impute missing values 
 
 5. Transform categorical variables 
 
@@ -36,11 +36,11 @@ the total plots you would need to complete this.
 
 1. First you should look at the differences in churn rates, split by the different categorical variables. Produce the appropriate visualisation to compare the average churn rate, split by:
 
-  i. Geography
+    i. Geography
 
-  ii. Gender
+    ii. Gender
 
-  iii. Tenure
+    iii. Tenure
 
 2. We would also like to know how the data is distributed. Some models require features to be
 
@@ -48,21 +48,21 @@ normally distributed, and highly skewed variables can affect summary statistics 
 
 unchecked. Produce the appropriate visualisation for the distribution of:
 
-  i. Geography
+    i. Geography
 
-  ii. Age
+    ii. Age
 
-  iii. Credit Score
+    iii. Credit Score
 
 3. Combine all of the above visualisations into a subplot.
 
 4. Create a bar plot that shows the correlation of each feature with the target.
 
-  4.1. Order the bars so that the feature with the highest correlation is the first bar.
+    4.1. Order the bars so that the feature with the highest correlation is the first bar.
 
-  4.2. Add the correlation value to the top of each bar
+    4.2. Add the correlation value to the top of each bar
 
-  4.3. Add a line to the figure which shows the average correlation (hint: This will require adding an extra trace).
+    4.3. Add a line to the figure which shows the average correlation (hint: This will require adding an extra trace).
   
 
 ## 3.Deep learning Project

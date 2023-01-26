@@ -73,3 +73,37 @@ the total plots you would need to complete this.
   - Testing 5(ormore!) different combinations of elements (Network architecture,data augmentation…)
   - Collecting the results and analysing them
   - Giving a global comparison among the(atleast) 5 combinations
+ 
+## 4.H&M Recommendations System
+
+**END-TO-ENDMACHINELEARNING with colaborative filtering**
+
+
+**THE DATA SET**
+
+The datasets necessary for the project has been shared with you.
+
+The data is provided by H&M Group. [H&M Group](https://www.hmgroup.com/)is a family of brands and businesses with 53 online markets andapproximately 4,850 stores. Our online store offers shoppers an extensive selection of products to browse through. Butwith too many choices, customers might not quickly find what interests them or what they are looking for, and ultimately,theymightnotmakeapurchase.Toenhancetheshoppingexperience,productrecommendationsarekey.Moreimportantly, helping customers make the right choices also has a positive implications for sustainability, as it reducesreturns,and therebyminimizesemissionsfromtransportation.
+
+**THE ASSIGNMENT**
+
+In this assignment, H&M Group invites you to develop product recommendations based on data from previous transactions,as well as from customer and product meta data.The available metadata spans from simple data,such as garment type and customer age,to text data from product descriptions,to image data from garment images.
+
+
+
+# 5.Predicting the risk of heart disease 
+
+
+**THE DATASET**
+
+The data set necessary for the Project is provide in this file.
+
+The dataset has been obtained by sampling and adapting the original dataset from Kaggle. Each row in thedataset corresponds to a different individual. Some columns are the answers to questions asked to respondentsabout their health status, such as "Do you have serious difficulty walking or climbing stairs?" or "Have yousmoked at least 100 cigarettes in your entire life? The target is the HeartDisease variable, which indicates whether respondents that have ever reported having coronary heart disease(CHD)or my ocardial infarction.
+
+**THE ASSINGMENT**
+
+The implementation of a ML model to **predict a person's probability of having heart disease.** 
+
+## 6.Final Project DSMarket
+
+please reffer to "DSMarket_evaluation.pptx" file in this folder to get a better understanding of the project.
